@@ -61,5 +61,5 @@ jobs:
             --name $AZURE_WEBAPP_NAME \
             --resource-group $AZURE_RESOURCE_GROUP \
             --src-path release.zip \
-            --type zip
+            --type zip \
             --async
