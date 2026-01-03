@@ -54,7 +54,6 @@ jobs:
 
       - name: Deploy to Azure Web App
         run: |
-          cd fastapi-hello
           zip -r release.zip .
           az webapp deploy \
             --name $AZURE_WEBAPP_NAME \
