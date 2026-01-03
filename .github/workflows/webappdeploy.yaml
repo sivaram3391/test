@@ -62,3 +62,4 @@ jobs:
             --resource-group $AZURE_RESOURCE_GROUP \
             --src-path release.zip \
             --type zip
+            --async
