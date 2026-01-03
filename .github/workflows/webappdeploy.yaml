@@ -55,7 +55,7 @@ jobs:
 
       - name: Deploy to Azure Web App
         run: |
-          cd New folder
+          cd Newfolder
           zip -r release.zip .
           az webapp deploy \
             --name $AZURE_WEBAPP_NAME \
