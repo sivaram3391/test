@@ -41,6 +41,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          cd New folder
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
@@ -54,6 +55,7 @@ jobs:
 
       - name: Deploy to Azure Web App
         run: |
+          cd New folder
           zip -r release.zip .
           az webapp deploy \
             --name $AZURE_WEBAPP_NAME \
