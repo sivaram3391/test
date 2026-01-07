@@ -13,7 +13,7 @@ router = APIRouter()
 async def health_check():
     """Comprehensive health check with Jira and Xray dependency status."""
     health_status = {
-        "status": "healthy",
+        "status": "healthyv2",
         "timestamp": datetime.utcnow().isoformat(),
         "environment": settings.ENV,
         "service": settings.APP_NAME,
