@@ -61,7 +61,7 @@ async def health_check():
     
     # Update overall status
     if not all_healthy:
-        health_status["status"] = "degraded"
+        health_status["status"] = "degraded V2"
     
     return health_status
 
