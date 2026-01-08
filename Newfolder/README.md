@@ -63,4 +63,4 @@ docker build -t fabric-mcp-server .
 2. Run the docker image
 ```sh
 docker run -it --rm -p 8000:8000 fabric-mcp-server
-```
+```--
